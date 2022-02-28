@@ -22,18 +22,31 @@ nav .logo img {
     width: 25%;
 }
 
+nav .menu {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+nav .menu #menu-bar {
+    display: none;
+    text-align: end;
+    cursor: pointer;
+}
+
 nav .menu ul {
     display: flex;
 }
 
 nav .menu ul li {
-    margin: 0 20px;
+    margin: 0 1.5vw;
     list-style: none;
 }
 
 nav .menu ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.2vw
 }
 
 .banner {

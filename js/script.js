@@ -21,3 +21,7 @@ $(".owl-carousel").owlCarousel({
         }
     }
 });
+
+$('#menu-bar').click(function() {
+    $("#menu-items").toggle();
+});

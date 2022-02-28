@@ -1,0 +1,8 @@
+@media(max-width:767px) {
+    #menu-bar {
+        display: block !important;
+    }
+    #menu-items {
+        display: none;
+    }
+}
